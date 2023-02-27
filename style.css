@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+  }
+
+  body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: #8a71c9;
+    margin: 0%;
+  }
+  header{
+    display: flex;
+    align-items: center;      /*centralisa o titulo do header   */
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    border: 3px solid #000;
+    margin-bottom: 40px;
+    background-color: #DE187E;
+  }
+
+  @media (max-width: 768px) {
+    header {
+         margin-bottom: 20px;
+         height: 200px;
+    }
+}
+    section{
+        width: 60%;
+        margin: 0% auto;
+    }
+    section section{
+        width: 100%;
+    }
+    
+
+    p{
+        font-size: 20px;
+        line-height: 1,5;
+    }
+
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 60px;
+        font-weight: 300px;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 36px;
+        }
+    }
+
+    h2{
+        color: #2a0074;
+        font-size: 40px;
+    }
+    @media(max-width: 768px){
+        h2{
+            font-size: 20px;
+        }
+    }
+    
+    img{
+        width: 100%;
+    }
+    
+    h3{
+        color: #2a0074;
+        font-size: 22px;
+        font-style: italic;
+    }
+    .titulo-rosa{
+        color:#DE187E;
+    }
+
+    ul{
+        list-style-type: none;
+        line-height: 2;
+        padding-left: 0%;
+    }
+    
+    .listaMulheres{
+        margin: 20px;
+    }
+    
+    a{
+        text-decoration: none;
+        color:#94b6ce;
+        line-height: 2;
+        font-weight: 700;
+    }
+
+    .principal{
+        background: #ff6cb5;
+        height: 40px;
+        max-width: 60%;
+        margin: 0px auto;
+        border: 2px solid #000;
+      }
+     
+    .principal a{
+        color: #fff;
+        text-decoration: underline;
+        font-weight: normal;
+      }
+    
+    .principal li{
+        display: inline-flex;
+        justify-content: space-between;
+        line-height: 2.5;
+        margin: 0 25px;
+
+    }
+
+    @media(max-width: 768px){ 
+         .principal{ 
+            height: 90px;
+            max-width: 60%;
+            display: block;
+            margin: 15px auto;
+        }
+    }
+
+    button{
+        background-color: #41f341;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        padding: 2px 20px;
+        margin: 30px;
+    }
+    
+    footer {
+        border-top: 3px solid #000;
+        margin-top: 80px;
+        background: #94b6ce;
+        color: #2a0074;
+        
+    }
+
+    .footer_cc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .redes-sociais{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top:20px;
+        font-size: 1.4rem;
+        padding: 10px;
+    }
+
+    .navegacao__icon {
+        margin-top: 15px;
+        width: 30px ;
+        height: 30px;
+    }
