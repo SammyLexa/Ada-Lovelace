@@ -5,3 +5,6 @@ Este projeto é um site sobre Ada Lovelace, a primeira pessoa a escrever um algo
 
 Feito com HTML, CSS e Javascript.
 
+
+![image](https://user-images.githubusercontent.com/123910027/223106991-7b534da7-4f1c-4c64-9b07-09d037bb8e4e.png)
+
